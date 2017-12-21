@@ -1,0 +1,27 @@
+.page
+{
+  display: table;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.logo-container
+{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.logo
+{
+  width: 600px;
+  height: 160px;
+  background: url(./../assets/images/Brand_Logo_Dark.jpg) no-repeat center;
+  margin: auto;
+  margin-top: -50px;
+  max-width: 100vw;
+  background-size: contain;
+}
